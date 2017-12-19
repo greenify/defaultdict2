@@ -53,9 +53,10 @@ var defaultdict = function(){
                 }else{
                     obj[prop] = value;
                 }
+                return true;
             }
         };
-        starting_dict = starting_dict || {};
+        starting_dict = starting_dict || Object.create(null);
         return new Proxy(starting_dict, handler);
     }
     return defaultdict;
