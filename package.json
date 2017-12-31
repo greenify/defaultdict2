@@ -8,7 +8,6 @@
   },
   "dependencies": {
     "harmonize": "^2.0.0",
-    "harmony-proxy": "^1.0.1",
     "harmony-reflect": "^1.5.1"
   },
   "devDependencies": {

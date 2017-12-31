@@ -7,7 +7,6 @@ try{
 }catch(e){
     // hack to enable the harmony-proxies flag by default
     require("harmonize")(["harmony", "harmony-proxies", "harmony_proxies"]);
-    require('harmony-proxy');
 }
 // hack to shim proxies on node
 // TODO: look at nodes' proxy API and see whether this shim is needed
